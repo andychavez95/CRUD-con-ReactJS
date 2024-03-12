@@ -18,10 +18,10 @@ try {
     console.log(`El error de conexión es: ${error}`);
 }
 
-app.get("/", (req, res) => {
-    res.send('Hola mundo.');
-});
+// app.get("/", (req, res) => {
+//     res.send('Hola mundo.');
+// });
 
 app.listen(3001, () => {
-    console.log("Servidor corriendo en dirección: http://localhost:3001/");
+    console.log("Servidor corriendo en dirección: http://localhost:3001");
 });
